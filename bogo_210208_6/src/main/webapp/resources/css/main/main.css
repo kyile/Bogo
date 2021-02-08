@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*메뉴부분*/
+#home{
+      width : 80%;
+      height : 1000px;
+      margin-left: 240px;
+      background-color:white;
+     }
+#all-contents{
+      padding-top:200px;
+      height: 320px;
+}
+#contents{
+	width: 250px;
+    height: 337px;
+    float: left;
+    margin-left:50px;
+    margin-bottom:20px;
+    position: relative;
+    background-color: oldlace;
+}
