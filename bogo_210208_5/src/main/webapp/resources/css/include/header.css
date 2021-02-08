@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/*header 부분*/
+		header{
+            position: fixed;
+            width: 1200px;
+            height: 100px;
+            background-color: rgba(152, 175, 240,0.95);
+            z-index:200;
+        }
+        #logo{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            margin-top: 10px;
+            margin-left: 50px;
+            padding: 10px;
+        }
+        #head_1{
+            height: 100px;
+            margin-left:130px;
+        }
+
+        #nav {
+            list-style: none;
+        }
+  /*메뉴부분*/
+        #nav li ul {
+            position: absolute;
+            margin-top: 26px;
+            padding: 0px;
+            border-radius: 10px 10px 10px 10px;
+            background-color: rgba(65,68, 77,0.7);
+            text-align: center;
+            list-style: none;
+            display: none;
+            z-index: 100;
+        }
+ 
+
+        #nav>li {
+            float: left;
+            position: relative;
+            /* margin: 48px 30px; */
+            /* padding: 0px; */
+            padding: 48px 30px;
+        }
+        #nav li a {
+            display: block;/*  */
+            font-size: 24px;
+            padding: 0px;
+            margin: 0;
+            color:white;
+            text-decoration:none;
+        }
+        #nav li ul li{
+            margin: 20px;
+        }
+       
+        #nav li ul li a{
+            width: 150px;
+            font-size: 21px;
+            color:black;
+        }
+        /*메인 메뉴 클릭시*/
+        #nav li:hover>a {
+            padding: 0;
+            color: black;
+        }
+
+        #nav li:hover ul {
+            display:block;/*  */
+        }/**/
+	    #nav li ul :hover{
+	    	display:block;
+	    } 
+        #head_1 label{
+            height: 30px;
+            width: 70px;
+            margin: 10px 7px;
+            float: right;
+            font-size: 16px;
+            text-align: center;
+            outline: 0;
+            border-radius:5px 5px 5px 5px;
+            color:black;
+        }
+        #head_1 label a{    
+            color:black;
+            text-decoration: none;
+        }
+
+        #head_2{
+            margin-left: 400px;
+        }
+        
+        #find{
+            width: 400px;
+            height: 38px;
+        }
+        
+        #head_2 button{
+            width: 70px;
+            height: 42px;
+            color:aliceblue;
+            outline: none;
+            background-color: blueviolet;
+        }
