@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* 섹션 이미지 */
+		#manubar{
+			margin: 0px;
+            margin-top:50px;
+			padding: 0px;
+			height: 600px;
+			width: 250px;
+			position: fixed;
+			overflow-x:hidden;
+		}
+		section ul{
+			padding:0px;
+			padding-top: 100px;
+            margin:0px;
+            
+		}
+		section li{
+        	margin-left: 3%;
+        	height:35px;
+        	width:92%;
+        	margin-top:10px;
+        	padding-top:14px;
+        	padding-bottom: 10px;
+            list-style: none;
+            text-align: center;
+            size: 10px;
+            border-radius:5px 20px 20px 0px;
+            border-bottom:1px solid grey;
+            background-color:#DEE1E6;
+        }
+        section li a{
+        	/*margin-right:50px;*/
+        	font-size: 20px;
+        	color: black;
+        	text-decoration: none;
+        }
+        section li:hover a {
+        	/*margin-right:50px;*/
+        	font-size: 20px;
+        	color: black;
+        }

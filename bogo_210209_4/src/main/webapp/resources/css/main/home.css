@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 사이트 부팅시 첫 화면 */
+#home{
+      width : 100%;
+      height: 1100px; 
+      /* background-color:green; */
+     }
+     
+#home p{
+      position:relative;
+      margin:10px 10px 20px 30px;
+      font-size:24px;
+}
+#all-contents{
+      padding-top:150px;
+      height: 320px;
+}
+#contents img {
+	width: 250px;
+    height: 337px;
+    float: left;
+    margin:0px 10px 30px 30px;
+    position: relative;
+    background-color: oldlace;
+}
+
+/*email_page*/
+#email_page {
+	padding-top:200px;
+	margin-left:250px;
+	background-color:aliceblue;
+	border:1px solid black;
+	text-align:left;
+}
+#email_page h2{
+    margin-left:100px;
+    margin-bottom:40px;
+    
+}
+#t-title{
+	width:200px;
+	text-align:center;
+}
+
